@@ -10,6 +10,7 @@
     <meta name="keywords" data-i18n="meta.keywords" data-i18n-attr="content" content="">
     <meta name="author" content="Biwako International Trading LTD">
     <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#F85C00">
     <meta name="yandex-verification" content="e3c788c565296f32" />
     <meta name="google-site-verification" content="google14ee453d1126df11.html" />
     <!-- Yandex.Metrika counter -->
@@ -41,7 +42,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" data-i18n="meta.title" data-i18n-attr="content" content="Автозапчасти из Японии оптом — Biwako | Экспорт в Россию и СНГ">
-    <meta name="twitter:description" data-i18n="meta.description" data-i18n-attr="content" content="Biwako — надёжный экспортёр подержанных запчастей из Японии с 2003 г. Двигатели, АКПП, полукары, контейнеры. Доставка в Россию и СНГ. Запросите цену!">
+    <meta name="twitter:description" data-i18n="meta.description" data-i18n-attr="content" content="Biwako — надёжный экспортёр подержанных запчастей из Японии с 2003 г. Двигатели, АКПП, полукары, контейнеры. Доставка в Россию и СНГ.">
     <meta name="twitter:image" content="https://biwako-parts.jp/images/logo.png">
     <!-- Telegram -->
     <meta property="og:image:width" content="1200">
@@ -49,20 +50,32 @@
     <meta property="og:image:alt" content="Biwako International Trading - экспорт автозапчастей из Японии">
     <!-- Schema.org structured data -->
     <script type="application/ld+json">
+    [
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
+      "@type": ["Organization", "LocalBusiness"],
       "name": "Biwako International Trading LTD",
       "url": "https://biwako-parts.jp",
       "logo": "https://biwako-parts.jp/images/logo.png",
+      "image": "https://biwako-parts.jp/images/logo.png",
       "description": "Экспортер подержанных автозапчастей из Японии. Разборка автомобилей, загрузка в контейнеры и доставка по всему миру.",
       "foundingDate": "2003",
+      "priceRange": "$$",
+      "telephone": "+81-90-3052-8856",
+      "faxNumber": "+81-766-92-2021",
+      "email": "rashidjap@yahoo.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "198-2 Shichimi, Nakano, Imizu",
         "addressLocality": "Toyama",
         "postalCode": "933-0253",
         "addressCountry": "JP"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "09:00",
+        "closes": "18:00"
       },
       "contactPoint": {
         "@type": "ContactPoint",
@@ -71,7 +84,29 @@
         "availableLanguage": ["Russian", "English", "Japanese"]
       },
       "sameAs": []
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Что такое полукар из Японии?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Полукар — это передняя половина автомобиля, включающая двигатель и трансмиссию. Носокар — передняя часть с бампером, фарами и решёткой радиатора."}
+        },
+        {
+          "@type": "Question",
+          "name": "Сколько времени занимает доставка из Японии?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Доставка из Японии во Владивосток занимает 5–10 дней. В другие направления — 3–4 недели включая таможню."}
+        },
+        {
+          "@type": "Question",
+          "name": "Как сделать заказ?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Свяжитесь с нами по WhatsApp +81-90-3052-8856 или по email rashidjap@yahoo.com, укажите нужные запчасти — мы подготовим предложение."}
+        }
+      ]
     }
+    ]
     </script>
     <!-- CSS Files
     ================================================== -->
@@ -133,7 +168,6 @@
 <body>
     <div id="wrapper">
         <a href="#" id="back-to-top"></a>
-
         <!-- page preloader begin -->
         <div id="de-loader"></div>
         <!-- page preloader close -->
