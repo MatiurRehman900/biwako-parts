@@ -1,12 +1,8 @@
 User-agent: *
 Allow: /
-Disallow: /send-quote.php
-Disallow: /data/
 
-User-agent: Yandex
-Allow: /
-Crawl-delay: 2
-Disallow: /send-quote.php
-Disallow: /data/
-
+# Sitemap location
 Sitemap: https://biwako-parts.jp/sitemap.xml
+
+# Disallow admin or private paths (none currently, but good practice)
+Disallow: /data/
