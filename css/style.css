@@ -13549,10 +13549,34 @@ img {
   height: 200px;
   object-fit: cover;
   transition: transform 0.3s ease;
+  /* Reserve space before image loads — prevents layout shift jank */
+  aspect-ratio: 4 / 3;
+  /* Skeleton shimmer while loading */
+  background: linear-gradient(90deg, #e8e8e8 25%, #f5f5f5 50%, #e8e8e8 75%);
+  background-size: 200% 100%;
+  animation: gallery-shimmer 1.4s infinite;
+  will-change: transform;
+}
+
+.gallery-img.loaded,
+.gallery-img[src] {
+  background: none;
+  animation: none;
+}
+
+@keyframes gallery-shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
 }
 
 .gallery-img:hover {
   transform: scale(1.05);
+}
+
+/* Skip rendering off-screen gallery rows — biggest scroll perf win */
+.zoom-gallery {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 800px;
 }
 
 .service-hover{
