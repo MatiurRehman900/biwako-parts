@@ -83,23 +83,28 @@
     "image": "images/services/UAE/Used Auto-Parts in Bulk by Container-1.jpeg"
   },
   {
-    "id": "pakistan",
-    "title": "パキスタン",
+    "id": "mongolia",
+    "title": "モンゴル",
     "short": "中古自動車部品のまとめ輸出と完成車の輸出。",
-    "description": "コンテナによる中古自動車部品のまとめ輸出と、RoRoまたはコンテナ輸送による完成車の輸出をパキスタン向けに行っています。お客様の要求に応じて出荷を準備し、書類を整えます。",
+    "description": "コンテナによる中古自動車部品のまとめ輸出と、RoRoまたはコンテナ輸送による完成車の輸出をモンゴル向けに行っています。お客様の要求に応じて出荷を準備し、書類を整えます。",
     "bullets": [
       {
         "desc": "RoRoまたはコンテナ輸送による完成車の輸出 - 航行スケジュールとスペースの空き状況に応じて、日本のほぼすべての主要港からRoRo輸出を行い、3〜6台まとめての輸送にはコンテナ輸送もコスト効率の良い方法です",
         "img": [
-          "images/services/Pakistan/Bulk Used Auto-Parts by Container-3.jpeg",
-          "images/services/Pakistan/Bulk Used Auto-Parts by Container-1.jpeg",
-          "images/services/Pakistan/Bulk Used Auto-Parts by Container-2.jpeg"
+          "images/services/Pakistan/prius-old.png",
+          "images/services/Mongolia/prius-laoded.png"
         ]
       },
       {
         "desc": "コンテナによる中古自動車部品のまとめ輸出 - パキスタンで高い需要がある部品向けの方法です",
         "img": [
-          "images/services/russia/Disassembled complete cars loading in Container-7.jpeg"
+           "images/services/mongolia/mongolia-parts-1.jpeg",
+            "images/services/mongolia/mongolia-parts-2.jpeg",
+             "images/services/mongolia/mongolia-parts-3.jpeg",
+              "images/services/mongolia/mongolia-parts-4.jpeg",
+               "images/services/mongolia/mongolia-parts-5.jpeg",
+                "images/services/mongolia/mongolia-parts-6.jpeg",
+                 "images/services/mongolia/mongolia-parts-7.jpeg"
         ]
       }
     ],

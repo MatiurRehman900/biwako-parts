@@ -83,23 +83,28 @@
     "image": "images/services/UAE/Used Auto-Parts in Bulk by Container-1.jpeg"
   },
   {
-    "id": "pakistan",
-    "title": "Пакистан",
+    "id": "mongolia",
+    "title": "Монголия",
     "short": "Оптовая экспортная поставка б/у автозапчастей и целых автомобилей.",
-    "description": "Оптовые партии б/у автозапчастей в контейнерах и экспорт целых автомобилей через RoRo или контейнерные отправки в Пакистан. Мы подготавливаем и документируем отгрузки в соответствии с требованиями клиента.",
+    "description": "Оптовые партии б/у автозапчастей в контейнерах и экспорт целых автомобилей через RoRo или контейнерные отправки в Монголию. Мы подготавливаем и документируем отгрузки в соответствии с требованиями клиента.",
     "bullets": [
       {
         "desc": "Экспорт целых автомобилей через RoRo или контейнерные отправки - в зависимости от графика судов и доступного места мы используем метод RoRo из почти всех крупных портов Японии, а для 3–6 автомобилей вместе контейнерная отправка также является экономичным методом",
         "img": [
-          "images/services/Pakistan/Bulk Used Auto-Parts by Container-3.jpeg",
-          "images/services/Pakistan/Bulk Used Auto-Parts by Container-1.jpeg",
-          "images/services/Pakistan/Bulk Used Auto-Parts by Container-2.jpeg"
+           "images/services/Pakistan/prius-old.png",
+          "images/services/Pakistan/prius-laoded.png"
         ]
       },
       {
         "desc": "Оптовые б/у автозапчасти в контейнере - метод используется для самых востребованных запчастей в Пакистане",
         "img": [
-          "images/services/russia/Disassembled complete cars loading in Container-7.jpeg"
+           "images/services/mongolia/mongolia-parts-1.jpeg",
+            "images/services/mongolia/mongolia-parts-2.jpeg",
+             "images/services/mongolia/mongolia-parts-3.jpeg",
+              "images/services/mongolia/mongolia-parts-4.jpeg",
+               "images/services/mongolia/mongolia-parts-5.jpeg",
+                "images/services/mongolia/mongolia-parts-6.jpeg",
+                 "images/services/mongolia/mongolia-parts-7.jpeg"
         ]
       }
     ],
