@@ -27,7 +27,7 @@
   "services.intro": "以下は、各地域向けの一般的な輸出方法です。",
   "services.country.russia": "ロシア",
   "services.country.uae": "UAE（ドバイとシャルジャ）",
-  "services.country.pakistan": "パキスタン",
+  "services.country.mongolia": "モンゴル",
   "services.country.philippines": "フィリピン",
   "services.country.global": "アフリカ、ラテンアメリカ、ヨーロッパ",
   "services.card.cta": "詳細を見る",
@@ -59,8 +59,8 @@
   "services.uae.bullet1": "コンテナによる中古自動車部品の大量輸送",
   "services.uae.bullet2": "アロイホイール付きまたはなしのタイヤコンテナ",
 
-  "services.pakistan.bullet1": "RoRoまたはコンテナ輸送による完成車輸出",
-  "services.pakistan.bullet2": "コンテナによる中古自動車部品の大量輸送",
+  "services.mongolia.bullet1": "RoRoまたはコンテナ輸送による完成車輸出",
+  "services.mongolia.bullet2": "コンテナによる中古自動車部品の大量輸送",
 
   "services.philippines.bullet1": "ラック＆スタック",
   "services.philippines.bullet2": "CKD（完全分解）",
